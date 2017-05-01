@@ -90,18 +90,19 @@ $image_path: '/images' !default;
 // * Saving server bandwidth sending the extra classes
 // * Save client computation against the classes
 // it is RECOMMENDED you set this to true.
-$trim-color-classes: false !default;
+$trim-color-classes: true;
 
 // Use color primarily for emphasis. Choose colors that fit with
 // your brand and provide good contrast between visual components.
-$color-primary: $palette-indigo-500 !default;
-$color-primary-dark: $palette-indigo-700 !default;
-$color-accent: $palette-pink-A200 !default;
+$color-primary: $palette-landstream-500;
+$color-primary-dark: $palette-landstream-700;
+$color-accent: $palette-landstream-A400;
+
 
 // Our primary is dark, so use $color-dark-contrast for overlaid text.
-$color-primary-contrast: $color-dark-contrast !default;
+$color-primary-contrast: $color-dark-contrast;
 // Our accent is dark, so use $color-dark-contrast for overlaid text.
-$color-accent-contrast: $color-dark-contrast !default;
+$color-accent-contrast: $color-dark-contrast;
 
 // Replace all colors with placeholders if we're generating a template.
 @if $styleguide-generate-template == true {
@@ -232,10 +233,10 @@ $switch-disabled-track-color: unquote("rgba(#{$color-black}, 0.12)") !default;
 
 /* ==========  Spinner  ========== */
 
-$spinner-color-1: unquote("rgb(#{$palette-blue-400})") !default;
-$spinner-color-2: unquote("rgb(#{$palette-red-500})") !default;
-$spinner-color-3: unquote("rgb(#{$palette-yellow-600})") !default;
-$spinner-color-4: unquote("rgb(#{$palette-green-500})") !default;
+$spinner-color-1: unquote("rgb(#{$palette-landstream-500})") !default;
+$spinner-color-2: unquote("rgb(#{$palette-landstream-A400})") !default;
+$spinner-color-3: unquote("rgb(#{$palette-landstream-500})") !default;
+$spinner-color-4: unquote("rgb(#{$palette-landstream-A400})") !default;
 
 $spinner-single-color: unquote("rgb(#{$color-primary})") !default;
 
