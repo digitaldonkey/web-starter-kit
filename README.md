@@ -1,4 +1,10 @@
-# [![Web Starter Kit](https://cloud.githubusercontent.com/assets/110953/11445049/f05512ba-9520-11e5-8fdb-8c8eb5f690d0.jpg)](https://github.com/google/web-starter-kit/releases/latest)
+#Intro
+
+This is a custom Material design lite build based on [Web Starter Kit](https://github.com/google/web-starter-kit/releases/latest). 
+
+Implementing a custom color palette for Landstream.
+
+See variables in ``app/styles/src/_color-definitions.scss``
 
 ## Overview
 
