@@ -4,7 +4,7 @@ This is a custom Material design lite build based on [Web Starter Kit](https://g
 
 Implementing a custom color palette for Landstream.
 
-See variables in ``app/styles/src/_color-definitions.scss``
+See variables in ``app/styles/src/_color-definitions.scss`` and palette in palette.png.
 
 ## Overview
 
